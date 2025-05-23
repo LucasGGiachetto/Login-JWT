@@ -1,0 +1,188 @@
+.profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            max-width: 500px;
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+.button-2 {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+/* Estilo base para todos os inputs */
+input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+  outline: none;
+}
+
+/* Estilo quando o input está em foco */
+input:focus {
+  border-color: #031d3a;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+  background-color: #fff;
+}
+
+/* Estilo para placeholder */
+input::placeholder {
+  color: #aaa;
+  opacity: 1; /* Firefox */
+}
+
+/* Estilo específico para input type="submit" ou button */
+input[type="submit"], 
+input[type="button"],
+button {
+  background-color: #c5c6c8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 12px 20px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover {
+  background-color: #c5c6c8;
+}
+
+/* Estilo para checkbox e radio buttons */
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+/* Container para agrupar label + input */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+  input {
+    background-color: #ffffff;
+    border-color: #555;
+    color: #000000;
+  }
+  
+  input:focus {
+    border-color: #035715;
+    background-color: #171616;
+    color: white;
+  }
+  
+  input::placeholder {
+    color: #888;
+  }
+  
+  .input-group label {
+    color: #ddd;
+  }
+
+  body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        
+        .articles-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .article-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .article-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .article-summary {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        
+        .article-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: #7f8c8d;
+        }
+        
+        .article-stats {
+            display: flex;
+            gap: 10px;
+        }
+        

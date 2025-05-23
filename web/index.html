@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div id="login-form">
+        <h2>Login</h2>
+        <input type="email" id="email" placeholder="E-mail" value="usuario@gmail.com"><br>
+        <input type="password" id="password" placeholder="Senha" value="a1b2@b3c4"><br>
+        <button class="button-2" onclick="login()">Entrar</button>
+    </div>
+</center>
+    <div id="profile" class="profile" style="display: none;">
+        <img id="avatar" class="avatar" src="" alt="Avatar">
+        <div>
+            <div id="username" class="name"></div>
+            <button class="button-2" onclick="logout()">Sair</button>
+        </div>
+    </div>
+
+    <div class="articles-container" id="articles-container"></div>
+    
+<script type="module" src="script.js"></script>
+<script src="userService.js"></script>
+<script src="../api/src/data/posts.js"></script>
+</body>
+</html>
